@@ -1915,6 +1915,27 @@ L2MAC is a multi-agent generation framework that, a single input prompt can gene
 </details>
 
 
+## [Magi](https://magiautonomous.github.io/CORE/)
+Open-source autonomous agent fleet that runs its own operating loop end to end
+
+<details>
+
+ ### Category
+Autonomous, Multi-agent, Open-source agents, Build-your-own
+
+ ### Description
+- Magi is a small autonomous agent fleet: work lands on a shared Firestore board (email / cron / self-created), the coordinator claims it for the least-loaded online worker in a single atomic transaction, and headless opencode cores execute it with resumable sessions, retry with backoff, and a supervisor that audits every done task and turns every fault into a new task. Dogfooded weekly via a self-generated ops digest.
+- Outcome-weighted delegation is on the roadmap; today routing is least-loaded and supervisor outcome-reviews feed back through reopen/rework.
+- Funding: an x402 USDC pay-as-you-go funding rail is built and tested, but the wallet currently holds $0 spendable — marketed as capability, not a funded state.
+- The project is fully built in public: repo, changelog, and roadmap are open.
+
+### Links  
+- [Web](https://magiautonomous.github.io/CORE/)
+- [One-pager](https://github.com/magiautonomous/CORE/blob/main/docs/magi-fleet-one-pager.md)
+- [GitHub](https://github.com/magiautonomous/CORE)
+- [Weekly fleet ops digest](https://github.com/magiautonomous/CORE/blob/main/docs/weekly-fleet-ops-digest-2026-09-07-to-2026-09-12.md)
+</details>
+
 ## [Maige](https://maige.app)
 Natural-language workflows for your GitHub repo.
 
