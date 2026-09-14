@@ -1920,10 +1920,10 @@ Autonomous agent fleet that runs its own operating loop end to end
 
 <details>
 
- ### Category
+### Category
 Autonomous, Multi-agent, Open-source agents, Build-your-own
 
- ### Description
+### Description
 - Magi is a small autonomous agent fleet: work lands on a shared Firestore board (email / cron / self-created), the coordinator claims it for the least-loaded online worker in a single atomic transaction, and headless opencode cores execute it with resumable sessions, retry with backoff, and a supervisor that audits every done task and turns every fault into a new task. Dogfooded weekly via a self-generated ops digest.
 - Outcome-weighted delegation is on the roadmap; today routing is least-loaded and supervisor outcome-reviews feed back through reopen/rework.
 - Funding: an x402 USDC pay-as-you-go funding rail is built and tested, but the wallet currently holds $0 spendable — marketed as capability, not a funded state.
@@ -1936,6 +1936,7 @@ Autonomous, Multi-agent, Open-source agents, Build-your-own
 - [Weekly fleet ops digest](https://magi-core-landing-2.vercel.app/weekly-fleet-ops-digest-2026-09-07-to-2026-09-12.md)
 - [GitHub org](https://github.com/magiautonomous)
 </details>
+
 ## [Maige](https://maige.app)
 Natural-language workflows for your GitHub repo.
 
